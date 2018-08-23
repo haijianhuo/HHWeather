@@ -62,15 +62,17 @@ class ViewController: UIViewController {
             var delta = tableViewStartOffset + offset
             
             if delta < 0 {
-                delta = 0
+                delta = delta * 0.3
             }
             //print(delta)
             tableView.setContentOffset(CGPoint(x: 0, y: delta), animated: false)
-            
         }
         
         if sender.state == .ended {
-            
+            if tableView.contentOffset.y  < 0 {
+                tableView.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
+            }
+
         }
         
         
@@ -138,7 +140,7 @@ extension ViewController: UIScrollViewDelegate {
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         let offset = scrollView.contentOffset.y
         
-        if offset > 60 && offset < tableHeaderView.frame.height - 60 {
+        if offset > 10 && offset < tableHeaderView.frame.height - 10 {
             if moveDown {
                 tableView.setContentOffset(.zero, animated: true)
             }

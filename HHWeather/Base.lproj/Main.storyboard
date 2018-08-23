@@ -52,10 +52,10 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunny" translatesAutoresizingMaskIntoConstraints="NO" id="VgU-vg-bxB">
-                                                    <rect key="frame" x="174.5" y="9" width="26" height="26"/>
+                                                    <rect key="frame" x="179.5" y="14" width="16" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="VgU-vg-bxB" secondAttribute="height" multiplier="1:1" id="kWo-4q-VkS"/>
-                                                        <constraint firstAttribute="width" constant="26" id="vOd-qO-3Ss"/>
+                                                        <constraint firstAttribute="width" constant="16" id="vOd-qO-3Ss"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="98" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBN-ai-7pP">
@@ -249,11 +249,11 @@
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunny" translatesAutoresizingMaskIntoConstraints="NO" id="B4E-kM-1sS">
-                                                                    <rect key="frame" x="0.0" y="36.5" width="50" height="36"/>
+                                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunny" translatesAutoresizingMaskIntoConstraints="NO" id="B4E-kM-1sS">
+                                                                    <rect key="frame" x="0.0" y="36.5" width="50" height="37"/>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="109°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2n-an-LOd">
-                                                                    <rect key="frame" x="0.0" y="72.5" width="50" height="36.5"/>
+                                                                    <rect key="frame" x="0.0" y="73.5" width="50" height="36.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
